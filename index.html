@@ -2,15 +2,28 @@
 <html>
 <head>    
     <title>Digitaler - 7</title>    
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
 </head>
 
 <body>   
     <div id="usuario">
-        
     </div>    
+    <div id="dialog-form" title="Create new user">
+        <form action="">
+            <label for="nombre"> Nombre</label>
+            <input type="text" id="nombre">
+            <label for="apellido"> Apellido</label>
+            <input type="text" id="apellido">
+            <button type="button" id="enviar"> Enviar </button>
+        </form>
+    </div>
+    <button type="button" id="crear"> Crear usuario </button>
     <ul id="ulejemplo">
 
     </ul>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 <script src="js/site.js"></script>
+
 </html>
